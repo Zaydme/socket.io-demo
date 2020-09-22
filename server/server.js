@@ -110,7 +110,7 @@ app.use(function(req, res, next) {
 });
 
 app.get("/", (req, res) => {
-  response.send('Hi! it works');
+  res.send('Hi! it works');
 });
 
 app.get("/onlineusers", (req, res) => {
